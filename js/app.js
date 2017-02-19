@@ -4,5 +4,7 @@ angular.module('app',[
 	'app.globel',
 	'app.service',
 	'app.controller',
-	'app.page1'
+	'app.page1',
+	'directive.autoFocus',
+	'filter.replaceHello'
 	]);

@@ -6,11 +6,13 @@
 </head>
 
 <body ng-controller="appController">
+<auto-focus-when></auto-focus-when>
     <ul>
         <li ui-sref="index">index</li>
         <li ui-sref="page1">page1</li>
     </ul>
     <ui-view></ui-view>
+    
     <!-- 引入angular和ui-router -->
     <script src="node_modules/angular/angular.min.js"></script>
     <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
@@ -35,6 +37,10 @@
     <script src="pages/page1.other/page1.other_controller.js"></script>
     <script src="pages/page1.other/page1.other_route.js"></script>
     <script src="pages/page1.other/page1.other_service.js"></script>
+    <!-- 引入directives文件 -->
+    <script src="directives/directive.js"></script>
+    <!-- 引入filters文件 -->
+    <script src="filters/filter.js"></script>
 </body>
 
 </html>
