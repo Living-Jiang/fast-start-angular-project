@@ -2,7 +2,7 @@
 * @Author: Living Jiang
 * @Date:   2017-02-19 16:08:33
 * @Last Modified by:   Living Jiang
-* @Last Modified time: 2017-02-19 20:01:17
+* @Last Modified time: 2017-02-19 21:38:57
 */
 
 module.exports = {
@@ -11,6 +11,11 @@ module.exports = {
     output: {//输出文件
       path: __dirname + '/public',
       filename: './bundle.js'
+    },
+    devServer: {
+        inline: true,
+        port: 8080,
+        hot: true
     },
     module: {
       loaders: [//加载器

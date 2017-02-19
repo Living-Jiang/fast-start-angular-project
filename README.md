@@ -18,5 +18,19 @@ There is an example in the pages/page1.
 
 ## Use webpack 
 
+```bash
+
 $ cd fast-start-angular-project
 $ webpack -p
+
+```
+
+## Use webpack-dev-server
+```bash
+
+$ cd fast-start-angular-project
+$ webpack-dev-server
+
+```
+Launch the server, visit http://127.0.0.1:8080
+
