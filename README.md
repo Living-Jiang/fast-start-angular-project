@@ -16,3 +16,7 @@ $ npm install
 
 There is an example in the pages/page1.
 
+## Use webpack 
+
+$ cd fast-start-angular-project
+$ webpack -p
